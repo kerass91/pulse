@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AACA,AAAA,CAAC,AAAA,CACG,WAAW,CAAC,6BAA6B,CAC5C",
+    "sources": [
+        "../blocks/style.scss",
+        "../base/_vatiables.scss"
+    ],
+    "names": [],
+    "file": "style.min.css"
+}
