@@ -8,6 +8,7 @@
         align-items: flex-end;
     }
     &__header {
+        margin-top: 20px;
         color: azure;
         font-size: 42px;
         font-weight: 700px;
@@ -15,7 +16,7 @@
     }
     &__subheader {
         margin-top: 17px;
-        color: azure;
+        color: rgb(247, 248, 248);
         font-size: 24px;
         line-height: 24px;
         font-weight: 500;
