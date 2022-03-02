@@ -5,14 +5,38 @@
         text-align: center;
         font-size: 30px;
         font-weight: 700;
+        padding-bottom: 60px;
     }
     &__items {
-
-    }
-    &__items_logo {
-        display: flex;
-        width: 169px;
-        height: 169px;
-
+        display: relative;
+        &_logo {
+            width: 169px;
+            height: 169px;
+        }
+        &_content {
+            display: flex;
+            padding-bottom: 60px;
+            &_text {
+                width: 680px;
+                min-height: 230px;
+                margin-left: 60px;
+                &_header {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                &_subheader {
+                    font-size: 14px;
+                    color:#646464;
+                }
+                &_descr {
+                    align-items: flex-end;
+                    font-size: 16px;
+                    font-weight: 300;
+                    line-height: 25px;
+                    color: black;
+                    margin-top: 10px;
+                }
+            }
+        }
     }
 }
