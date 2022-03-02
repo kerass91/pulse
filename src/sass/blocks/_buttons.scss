@@ -14,7 +14,8 @@
         font-size: 16px;
         background-color:$main-color;
         border: none;
-        border-radius: 5px;
+        border-radius: 5px; 
+        text-transform: uppercase;
     }
     &_submit {
         width: 100%;
@@ -25,5 +26,14 @@
         width: 131px;
         height: 40px;
         font-size: 14px;
+        align-items: center;
+        &:hover {
+            color: rgb(166, 168, 11);
+            font-weight: 600;
+            background-color: rgb(180, 43, 43);
+            border: 2px solid rgb(88, 97, 5);
+            box-shadow: 5px 5px 5px rgba(153, 15, 15, .5);
+            
+        }
     };
 }
