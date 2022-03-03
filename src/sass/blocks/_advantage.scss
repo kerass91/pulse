@@ -57,8 +57,10 @@
         width: 70px;
         height: 70px;
         &_animated {
-            animation-name: heartbeat;
-            animation-duration: 2s;
+            animation: heartbeat 2s ease infinite;
+            &:hover {
+                animation-play-state: paused;
+            }
         }
     }
         }

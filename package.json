@@ -10,10 +10,7 @@
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-
-  },
-  
+  "bugs": {},
   "devDependencies": {
     "browser-sync": "^2.27.7",
     "gulp": "^4.0.2",
@@ -23,5 +20,9 @@
     "gulp-rename": "^2.0.0",
     "gulp-sass": "^5.1.0",
     "sass": "^1.49.7"
+  },
+  "dependencies": {
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0"
   }
 }
