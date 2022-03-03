@@ -39,6 +39,15 @@
     &_mini {
         min-height: 140px;
     }
+    .error {
+        border: 2px solid red;
+    }
+    label.error {
+        border: none;
+        text-align: center;
+        margin-bottom: 13px;
+        color: rgb(245, 201, 8);
+    }
 }
 
 #consultation, #order, #thanks {

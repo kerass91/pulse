@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/blocks/style.min.css">
 </head>
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -59,7 +59,7 @@
                     <h3 class="advantage_subheader">Делимся опытом</h3>
                     <article class="advantage_icon_art">Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</article>
                 </div>
-                <div class="advantage_icon"><img class="advantage_img" src="icons/advantages/heart.png" alt="">
+                <div class="advantage_icon"><img class="advantage_img advantage_img_animated" src="icons/advantages/heart.png" alt="">
                     <h3 class="advantage_subheader">Заботимся о здоровье</h3>
                     <article class="advantage_icon_art">Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</article>
                 </div>
@@ -80,10 +80,10 @@
             <div class="consultation__descr">
                 Просто заполните форму заявки <br> и мы перезвоним вам в течении 10 минут
             </div>
-            <form class="feed-form" action="#">
-                <input name="name" required maxlength="10" placeholder="Ваше имя" type="text">
-                <input name="phone" required placeholder="Ваше телефон" type="number">   
-                <input name="email" required placeholder="Ваше E-mail" type="email">      
+            <form id="consultation-form" class="feed-form" action="#">
+                <input name="name" maxlength="10" placeholder="Ваше имя" type="text">
+                <input name="phone" placeholder="Ваше телефон">   
+                <input name="email" placeholder="Ваше E-mail" type="email">      
                <button class="button button_submit">Заказать консультацию</button>               
             </form>
         </div>
@@ -483,7 +483,7 @@
         <div class="modal__descr">и мы перезвоним вам в течении 10 минут</div>
         <form class="feed-form feed-form_mt25" action="#">
             <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваше телефон" type="number">   
+            <input name="phone" required placeholder="Ваше телефон">   
             <input name="email" required placeholder="Ваше E-mail" type="email">      
            <button class="button button_submit">Заказать консультацию</button>               
         </form>
@@ -494,7 +494,7 @@
         <div class="modal__descr">Пульсометр Polar FT1</div>
         <form class="feed-form feed-form_mt25" action="#">
             <input name="name" required placeholder="Ваше имя" type="text">
-            <input name="phone" required placeholder="Ваше телефон" type="number">   
+            <input name="phone" required placeholder="Ваше телефон">   
             <input name="email" required placeholder="Ваше E-mail" type="email">      
            <button class="button button_submit">Купить</button>               
         </form>
@@ -507,11 +507,16 @@
     </div>
 
 </div>
+<a href="#up" class="pageup">
+    <img src="icons/arrow.svg" alt="up">
+</a>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
 <script src="js/slick.min.js"></script>
+<script src="js/jquery.validate.min.js" ></script>
+<script src="js/jquery.maskedinput.js"></script>
 <script src="js/script.js"></script>
 </body>
 </html>
